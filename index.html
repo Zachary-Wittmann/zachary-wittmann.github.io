@@ -160,7 +160,7 @@
                 <!-- Contact Section Form-->
                 <div class="row justify-content-center">
                     <div class="col-lg-8 col-xl-7">
-                        <form action="https://formsubmit.co/wittmannzachary@gmail.com" method="POST" />
+                        <form action="https://formsubmit.co/82f253fcffc9115340f93f245007d5de " method="POST" />
                             <!-- Name input-->
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
@@ -186,6 +186,9 @@
                                 <label for="message">Message</label>
                                 <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                             </div>
+                            <!-- Redirect from FormSubmit-->
+                            <input type="hidden" name ="_next" value="https://zachary-wittmann.github.io">
+                            
                             <!-- Submit success message-->
                             <!---->
                             <!-- This is what your users will see when the form-->
@@ -204,7 +207,7 @@
                             <!-- an error submitting the form-->
                             <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                             <!-- Submit Button-->
-                            <button class="btn btn-primary btn-xl enabled" id="submitButton" type="submit">Send</button>
+                            <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button>
                         </form>
                     </div>
                 </div>
